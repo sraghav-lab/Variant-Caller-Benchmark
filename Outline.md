@@ -15,7 +15,6 @@ There are multiple variant calling tools available to detect single nucleotide v
 - GATK
 - Strelka2
 - Deepvariant
-- Dragen? (Not open source)
 
 **3) Data types**
 
