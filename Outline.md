@@ -27,7 +27,7 @@ There are multiple variant calling tools available to detect single nucleotide v
 - Manta
 - Delly2
 
-**5) Commercial Pipelines **
+**5) Commercial Pipelines**
 
 - DRAGEN, Illumina
 - Clara Parabricks, Nvidia
