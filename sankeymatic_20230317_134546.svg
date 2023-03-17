@@ -1,0 +1,75 @@
+<svg height="600" width="600" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 3/17/2023, 1:45:46 PM -->
+<rect height="600" width="600" fill="#ffffff"></rect>
+<g transform="translate(101.8778515625,18)">
+<g id="sankey_flows">
+<path id="flow0" d="M9 186.37C123.78054 186.37 123.78054 210 238.56107 210" fill="none" stroke-width="142" stroke="#4e79a7" opacity="0.45"><title>BWA-MEM → Alignment: 180</title></path>
+<path id="flow1" d="M9 375.63C123.78054 375.63 123.78054 352 238.56107 352" fill="none" stroke-width="142" stroke="#e15759" opacity="0.45"><title>Isaac → Alignment: 180</title></path>
+<path id="flow2" d="M247.56107 162.66667C362.34161 162.66667 362.34161 44.51667 477.12215 44.51667" fill="none" stroke-width="47.33333" stroke="#76b7b2" opacity="0.45"><title>Alignment → BCFTOOLS: 60</title></path>
+<path id="flow3" d="M247.56107 210C362.34161 210 362.34161 139.11 477.12215 139.11" fill="none" stroke-width="47.33333" stroke="#59a14f" opacity="0.45"><title>Alignment → Freebayes: 60</title></path>
+<path id="flow4" d="M247.56107 257.33333C362.34161 257.33333 362.34161 233.70333 477.12215 233.70333" fill="none" stroke-width="47.33333" stroke="#edc949" opacity="0.45"><title>Alignment → BayesTyper: 60</title></path>
+<path id="flow5" d="M247.56107 304.66667C362.34161 304.66667 362.34161 328.29667 477.12215 328.29667" fill="none" stroke-width="47.33333" stroke="#af7aa1" opacity="0.45"><title>Alignment → GATK: 60</title></path>
+<path id="flow6" d="M247.56107 352C362.34161 352 362.34161 422.89 477.12215 422.89" fill="none" stroke-width="47.33333" stroke="#ff9da7" opacity="0.45"><title>Alignment → Strelka2: 60</title></path>
+<path id="flow7" d="M247.56107 399.33333C362.34161 399.33333 362.34161 517.48333 477.12215 517.48333" fill="none" stroke-width="47.33333" stroke="#9c755f" opacity="0.45"><title>Alignment → Deepvariant: 60</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="115.37" height="142" width="9" fill="#4e79a7" fill-opacity="1"><title>BWA-MEM:
+180</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="238.56107" y="139" height="284" width="9" fill="#f28e2c" fill-opacity="1"><title>Alignment:
+360</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="0" y="304.63" height="142" width="9" fill="#e15759" fill-opacity="1"><title>Isaac:
+180</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="477.12215" y="20.85" height="47.33333" width="9" fill="#76b7b2" fill-opacity="1"><title>BCFTOOLS:
+60</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="477.12215" y="115.44333" height="47.33333" width="9" fill="#59a14f" fill-opacity="1"><title>Freebayes:
+60</title></rect>
+</g>
+<g class="node">
+<rect id="r5" class="for_r5" x="477.12215" y="210.03667" height="47.33333" width="9" fill="#edc949" fill-opacity="1"><title>BayesTyper:
+60</title></rect>
+</g>
+<g class="node">
+<rect id="r6" class="for_r6" x="477.12215" y="304.63" height="47.33333" width="9" fill="#af7aa1" fill-opacity="1"><title>GATK:
+60</title></rect>
+</g>
+<g class="node">
+<rect id="r7" class="for_r7" x="477.12215" y="399.22333" height="47.33333" width="9" fill="#ff9da7" fill-opacity="1"><title>Strelka2:
+60</title></rect>
+</g>
+<g class="node">
+<rect id="r8" class="for_r8" x="477.12215" y="493.81667" height="47.33333" width="9" fill="#9c755f" fill-opacity="1"><title>Deepvariant:
+60</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="16px" font-weight="400" fill="#000000">
+<text text-anchor="middle" x="198.12214843750002" y="577" font-size="11px" font-weight="400" fill="rgb(127, 127, 127)">Made with SankeyMATIC</text>
+<rect id="label0_bg" class="for_r0" x="-89.87785" y="175.19" width="88.24516" height="22.8" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="end" x="-6.29754" y="186.37" dy="5.22">BWA-MEM</text>
+<rect id="label1_bg" class="for_r1" x="156.04258" y="269.82" width="80.88578" height="22.8" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label1" class="for_r1" text-anchor="end" x="232.26354" y="281" dy="5.22">Alignment</text>
+<rect id="label2_bg" class="for_r2" x="-49.61223" y="364.45001" width="47.97953" height="22.8" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label2" class="for_r2" text-anchor="end" x="-6.29754" y="375.63" dy="5.22">Isaac</text>
+<rect id="label3_bg" class="for_r3" x="379.80683" y="33.33667" width="95.68266" height="22.8" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label3" class="for_r3" text-anchor="end" x="470.82461" y="44.51667" dy="5.22">BCFTOOLS</text>
+<rect id="label4_bg" class="for_r4" x="390.16621" y="127.93" width="85.32328" height="22.8" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label4" class="for_r4" text-anchor="end" x="470.82461" y="139.11" dy="5.22">Freebayes</text>
+<rect id="label5_bg" class="for_r5" x="381.25996" y="222.52332" width="94.22953" height="22.8" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label5" class="for_r5" text-anchor="end" x="470.82461" y="233.70333" dy="5.22">BayesTyper</text>
+<rect id="label6_bg" class="for_r6" x="423.36933" y="317.11666" width="52.12016" height="22.8" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label6" class="for_r6" text-anchor="end" x="470.82461" y="328.29667" dy="5.22">GATK</text>
+<rect id="label7_bg" class="for_r7" x="407.05683" y="411.71002" width="68.43266" height="22.8" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label7" class="for_r7" text-anchor="end" x="470.82461" y="422.89" dy="5.22">Strelka2</text>
+<rect id="label8_bg" class="for_r8" x="379.47871" y="506.30331" width="96.01078" height="22.8" rx="4" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label8" class="for_r8" text-anchor="end" x="470.82461" y="517.48333" dy="5.22">Deepvariant</text>
+</g>
+</g></svg>
